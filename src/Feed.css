@@ -1,0 +1,197 @@
+.feed {
+	display: flex;
+	flex: 0.64;
+	flex-direction: column;
+	padding: 20px;
+	max-width: 45rem;
+	/* overflow: hidden; */
+}
+
+.feed__stuff {
+	background-color: white;
+	border-radius: 7px;
+	box-shadow: 0.5px 0.5px 2px rgb(173, 171, 171);
+	margin-bottom: 16px;
+}
+
+.feed__story {
+	cursor: pointer;
+	padding: 7px;
+}
+
+.feed__story__icon {
+	display: flex;
+	align-items: center;
+	background-color: #e7f6ff;
+	border-radius: 99px;
+	cursor: pointer;
+	padding: 10px;
+	margin: 0 4px;
+}
+
+.feed__createStory {
+	display: flex;
+	align-items: center;
+	padding: 5px;
+	border-radius: 10px;
+}
+
+.feed__createStory:hover {
+	background-color: #ebebeb93;
+}
+
+.feed__createStory:hover > .feed__story__icon {
+	background-color: #d1e9f8;
+}
+
+.feed__story__icon > .MuiSvgIcon-root {
+	color: rgb(51, 103, 248);
+}
+
+.feed_storyInfo {
+	margin-left: 10px;
+}
+
+.feed_storyInfo > h3 {
+	font-weight: 600;
+	font-size: 18px;
+}
+
+.feed_storyInfo > p {
+	font-size: 15px;
+	opacity: 0.8;
+}
+
+.feed__update {
+	padding: 0px 15px;
+}
+
+.feed__updateInfo {
+	display: flex;
+	align-items: center;
+	padding: 15px 0px;
+}
+
+.feed__updateInfo > input {
+	font-size: 15px;
+	background-color: #f0f1f1;
+	border-radius: 20px;
+	padding: 10px;
+	border: none;
+	outline: none;
+	width: 100%;
+	margin-left: 10px;
+	font-size: 16px;
+}
+
+.feed__updateOptions {
+	border-top: 1px solid #e2e2e2c5;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	padding: 7px 0px 7px 0px;
+}
+
+.feed__updateOption {
+	display: flex;
+	align-items: center;
+	padding: 8px 20px;
+	cursor: pointer;
+	border-radius: 10px;
+}
+
+.feed__updateOption:hover {
+	background-color: #ebeff09c;
+}
+
+.feed__updateOption > h5 {
+	margin: 0px 5px;
+	font-weight: 500;
+	font-size: 15px;
+	opacity: 0.8;
+}
+
+.feed__updateOption:nth-child(1) > .MuiSvgIcon-root {
+	color: rgb(241, 28, 28);
+}
+
+.feed__updateOption:nth-child(2) > .MuiSvgIcon-root {
+	color: rgb(7, 206, 7);
+}
+
+.feed__updateOption:nth-child(3) > .MuiSvgIcon-root {
+	color: rgb(255, 174, 24);
+}
+
+.feed__zoomInfo {
+	padding: 10px;
+	display: flex;
+	align-items: center;
+}
+
+.feed__zoomInfo > h6 {
+	margin-left: 7px;
+}
+
+.feed__news__header {
+	display: flex;
+	align-items: center;
+	padding: 10px 15px 0px 15px;
+}
+
+.feed__news__header__info {
+	margin-left: 10px;
+}
+
+.moreIcon {
+	margin-left: auto;
+}
+
+.feed__news__content {
+	padding: 10px 15px;
+}
+
+.feed__news > img {
+	width: 100%;
+	object-fit: contain;
+}
+
+.feed__news__footer__info {
+	display: flex;
+	align-items: center;
+	padding: 5px 0px;
+	margin: 0px 15px;
+	border-bottom: 1px solid rgba(82, 81, 81, 0.349);
+}
+
+.margin-left {
+	margin-left: 10px;
+}
+
+.right {
+	margin-left: auto;
+}
+
+.feed__news__footer__react {
+	display: flex;
+	align-items: center;
+	padding: 5px 0px;
+	justify-content: center;
+}
+
+.reactIcon {
+	display: flex;
+	align-items: center;
+	padding: 5px 60px;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+.reactIcon:hover {
+	background-color: #e2dfdfd7;
+}
+
+.reactIcon > h4 {
+	margin-left: 5px;
+	font-weight: 500;
+}

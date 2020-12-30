@@ -1,0 +1,131 @@
+::-webkit-scrollbar {
+	width: 10px;
+	border-radius: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	/* background: #f1f1f1; */
+	border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: rgb(180, 180, 180);
+	border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: rgb(151, 151, 151);
+}
+
+.sidebar {
+	position: sticky;
+	position: -webkit-sticky;
+	top: 0;
+	display: flex;
+	flex: 0.18;
+	flex-direction: column;
+	overflow: scroll;
+	padding: 13px 8px;
+	padding-bottom: 0;
+}
+
+.sidebar__info {
+	display: flex;
+	align-items: center;
+	padding: 10px;
+	cursor: pointer;
+	transition: 0.3s;
+	border-radius: 10px;
+}
+
+.sidebar__info:hover {
+	background-color: #dddddd8f;
+}
+.sidebar__info > h4 {
+	margin-left: 10px;
+	font-weight: 500;
+}
+
+.sidebar__service {
+	display: flex;
+	align-items: center;
+	padding: 10px;
+	cursor: pointer;
+	transition: 0.3s;
+	border-radius: 10px;
+}
+
+.sidebar__service:hover {
+	background-color: #dddddd8f;
+}
+
+.sidebar__service > .MuiSvgIcon-root {
+	font-size: 30px !important;
+	color: rgba(9, 110, 26, 0.671);
+}
+.sidebar__service > h4 {
+	margin-left: 10px;
+	font-weight: 500;
+}
+
+hr {
+	margin: 10px;
+	border-top: 1px solid #c2c2c2;
+}
+
+.sidebar__shortcuts__info > h4 {
+	margin-left: 10px;
+	font-weight: 500;
+	color: #8f8a8a;
+}
+
+.sidebar__shortcuts__info {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 5px;
+}
+
+.sidebar__shortcuts__info > p {
+	border-radius: 4px;
+	color: rgba(0, 0, 255, 0.884);
+	cursor: pointer;
+	padding: 5px 5px;
+}
+
+.sidebar__shortcuts__info > p:hover {
+	background-color: #dddbdbc9;
+}
+.sidebar__shortcut {
+	display: flex;
+	align-items: center;
+	padding: 10px;
+}
+
+.sidebar__service > h4 {
+	margin-left: 10px;
+	font-weight: 500;
+}
+
+.sidebar__footer {
+	margin-top: auto;
+	font-size: 13px;
+	padding: 0px 10px;
+}
+.sidebar__footer > p {
+	opacity: 0.7;
+}
+
+.sidebar__footer > p > a {
+	text-decoration: none;
+	color: black;
+}
+
+@media (max-width: 1200px) {
+	.sidebar {
+		display: none;
+	}
+}

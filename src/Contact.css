@@ -1,0 +1,72 @@
+.contact::-webkit-scrollbar {
+	display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.contact {
+	-ms-overflow-style: none; /* IE and Edge */
+	scrollbar-width: none; /* Firefox */
+}
+
+.contact {
+	position: sticky;
+	position: -webkit-sticky;
+	top: 0;
+	z-index: 1;
+	display: flex;
+	flex: 0.18;
+	flex-direction: column;
+	overflow: scroll;
+	padding: 13px 0px;
+	padding-top: 20px;
+}
+
+.contact__header {
+	display: flex;
+	justify-content: space-between;
+	padding: 0px 5px;
+	margin-right: 10px;
+}
+
+.contact__header__icons > .MuiSvgIcon-root {
+	margin-right: 10px;
+}
+
+.contact__chatUser {
+	display: flex;
+	align-items: center;
+	padding: 6px 5px;
+	border-radius: 8px;
+	cursor: pointer;
+}
+
+.contact__chatUser > h4 {
+	margin-left: 10px;
+	font-size: 17px;
+	font-weight: 600;
+}
+
+.contact__chatUser:hover {
+	background-color: rgb(228, 228, 228);
+}
+
+.contact__chatGroups > h4 {
+	font-size: 17px;
+	padding: 10px;
+}
+
+.contact__addChat {
+	display: flex;
+	align-items: center;
+	padding: 6px 0px;
+}
+
+.header__right__icon {
+	display: flex;
+	align-items: center;
+	background-color: #e2e2e2;
+	border-radius: 99px;
+	cursor: pointer;
+	padding: 10px;
+	margin: 0 4px;
+}
